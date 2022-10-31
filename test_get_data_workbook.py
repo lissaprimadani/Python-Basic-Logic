@@ -3,13 +3,12 @@ This logic help to load workbook
 It's help to automate taking datas from workbook
 '''
 
-from email.message import Message
+
 from turtle import title
 from selenium import webdriver
 import pytest
 from openpyxl import load_workbook
 import time
-import pyautogui
 
 
 #adjust with folder address on your computer + file name
